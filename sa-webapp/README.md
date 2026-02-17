@@ -1,15 +1,15 @@
 ## Packaging the application
-` $ mvn install`
+` $ mvn clean package`
 
 ## Running the application
-` $ java -jar sentiment-analysis-web-0.0.1-SNAPSHOT.jar --sa.logic.api.url=http://localhost:5000 ` 
+` $ java -jar sentiment-analysis-web-0.0.1.jar --sa.logic.api.url=http://localhost:5000 ` 
 
 ## Building the container
-` $ docker build -f Dockerfile -t $DOCKER_USER_ID/sentiment-analysis-web-app . `
+` $ docker build -f Dockerfile -t markhunt/sentiment-analysis-web-app . `
 
 ## Running the container
 ``` 
-$ docker run -d -p 8080:8080 -e SA_LOGIC_API_URL='http://<container_ip or docker machine ip>:5000' $DOCKER_USER_ID/sentiment-analysis-web-app  
+$ docker run --rm -d -p 8080:8080 -e SA_LOGIC_API_URL='http://<container_ip or docker machine ip>:5000' markhunt/sentiment-analysis-web-app  
 ```
 
 #### Native docker support needs the Container IP
@@ -32,6 +32,6 @@ Use this one in the command.
 
 
 ## Pushing the container
-` $ docker push $DOCKER_USER_ID/sentiment-analysis-web-app `
+` $ docker push markhunt/sentiment-analysis-web-app `
 
 
