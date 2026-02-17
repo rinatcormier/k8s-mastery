@@ -16,8 +16,8 @@ Articles as a list:
 - [ ] [11. Kubernetes and everything else in Practice](http://web.archive.org/web/20250719143037/https://rinormaloku.com/kubernetes-everything-else-practice/)
 - [ ] [12. Kubernetes Volumes – in Practice](http://web.archive.org/web/20250719134853/https://rinormaloku.com/kubernetes-volumes-in-practice/)
 
-*Another cool article as an appendix to the series about adding Ingress to our architecture:*
+*Another cool article, as an appendix to the main series, about adding Ingress to our architecture:*
 - [ ] [Ingress Controller - simplified routing in Kubernetes](http://web.archive.org/web/20230604164824/https://www.orange-networks.com/blogs/210-ingress-controller-simplified-routing-in-kubernetes)
 
-*Also faced an article from the same author about CronJob which creates Postgres backups. It will be useful to try it by myself:*
+*Also faced an article, from the same author, about CronJob which creates Postgres backups. It will be useful to try it by myself:*
 - [ ] [Back up databases using Kubernetes CronJobs](http://web.archive.org/web/20230604181920/https://www.orange-networks.com/blogs/208-back-up-databases-using-kubernetes-cronjobs)
